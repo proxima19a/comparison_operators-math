@@ -31,4 +31,5 @@ console.log(true===1); // false
 undefined == null → true Специальный случай. Значения null и undefined равны только друг другу при нестрогом сравнении.
 undefined === null → false Строгое сравнение разных типов, поэтому false.
 null == "\n0\n" → false null равен только undefined.
-null === +"\n0\n" → false  Строгое сравнение разных типов. */  
+null === +"\n0\n" → false  Строгое сравнение разных типов. 
+typeof null === 'object'; // true  Запомнить https://habr.com/ru/articles/200664/  */  
